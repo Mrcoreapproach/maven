@@ -1,7 +1,7 @@
 node{
     
     stage('SCM Checkout'){
-      git'https://github.com/Mrcoreapproach/simple-java-maven-app.git'
+      git'https://github.com/Mrcoreapproach/maven.git'
         
     }
     stage('Compile-Package'){
